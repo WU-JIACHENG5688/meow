@@ -1,0 +1,140 @@
+/* style.css的 */
+body {
+    background-color: #cbe6f6; 
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    justify-content: center;
+    text-align: center;    
+}
+a {
+    color: #1a79ff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    background-color: #edd3ec;
+    padding: 10px; 
+}
+.profile-pic {
+    width: 700px;
+    height: auto;
+    border-radius: 20%;
+    margin-top: 20px;
+}
+h1 {
+    color: #edb38d;
+}
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+/* text.html 作品集頁面樣式 */
+.portfolio-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;  
+    gap: 30px; 
+}
+
+.project-item {
+    background-color: #ffffff;
+    border-radius: 12px;       
+    padding: 20px;
+    display: flex;
+    align-items: center;      
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+    text-align: left;        
+}
+
+
+.project-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.project-info h3 {
+    margin-top: 0;
+    color: #333333;
+}
+
+
+.project-pic {
+    width: 180px;              
+    height: 120px;            
+    border-radius: 8px;       
+    border: 1px solid #e0e0e0;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+ /* skill.html 技能介紹頁面 */
+.skill-container {
+    max-width: 1200px;        
+    padding: 20px;
+    display: flex;
+    flex-direction: row;      
+    justify-content: center;  
+    align-items: stretch;     
+    gap: 20px;               
+}
+
+.skill-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.skill-card h3 {
+    margin-top: 0;
+    font-size: 1.1rem;       
+    color: #333333;
+}
+
+.skill-card p {
+    color: #666666;
+    font-size: 0.9rem;       
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+
+.skill-img {
+    width: 100%;              
+    height: auto;            
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    margin-top: auto;         
+}
+
+
+/* contact.html 聯絡我頁面 */
+#contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: #a5ccd4;
+    border-radius: 80px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+  
